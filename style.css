@@ -1,0 +1,284 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box
+}
+body {
+    background-color: rgb(19, 19, 19);
+}
+#M {
+    position: relative;
+    right: -10%;
+    bottom: -10%;
+    height: 60px;
+    width: 60px;
+}
+h1 {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+h2 {
+    font-size: 50px;
+}
+#svg {
+    position: relative;
+    top: 30%;
+}
+
+#p {
+    color: rgb(130, 130, 130);
+    font-size: 18px;
+    margin-bottom: 4%;
+    user-select: none;
+    position: relative;
+    top: -10px;
+}
+p {
+    position: relative;
+    font-size: 20px;
+    bottom: -25px;
+}
+.p1 {
+    height: 50%;
+}
+.p2 {
+    height: 50%;
+}
+
+
+#p3 {
+    font-size: 15px;
+    top: 5%;
+}
+#p4 {
+    font-weight: bold;
+    top: 5%;
+    font-size: 15px;
+}
+#inicio {
+    width: 100%;
+    height: 200px;
+}
+.imagem {
+    float: right;
+    width: 200px;
+    height: auto;
+}
+.eu {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    right: -10%;
+    bottom: -10%;
+}
+
+#div1 {
+    color: aliceblue;
+    width: 100%;
+    height: 450px;
+}
+#div2 {
+    text-align: center;
+    color: aliceblue;
+    width: 100%;
+    height: 650px;
+    
+}
+#div3 {
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+
+}
+.min {
+    width: 950px;
+    height: 300px;
+    position: relative;
+    align-items: center;
+    right: -210px;
+    bottom: -50px;
+
+}
+.dados {
+    right: -150px;
+    bottom: -100px;
+    position: relative;
+    width: 1050px;
+    height: 180px;
+}
+#dados {
+    display: inline-block;
+    position: relative;
+    width: 251px;
+    height: 180px;
+}
+
+.v1 {
+    width: 100%;
+    height: 450px;
+}
+.div4 {
+    top: -60%;
+    right: -60%;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+#skils {
+    width: 1015px;
+    height: 250px;
+    position: relative;
+    right: -12%;
+    background-color: #202020;
+}
+.s1 {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+}
+#p1 {
+    position: relative;
+    text-align: center;
+    color: #dd5405;
+    margin: 0px;
+    font-size: 25px;
+    font-weight: 700;
+    transition: all 100ms ease 0s;
+    bottom: -40px;
+}
+.logo {
+    text-align: center;
+    width: 100%;
+    height: 50%;
+}
+#lo {
+    position: relative;
+    bottom: -25px;
+    width: 100px;
+    height: 100px;
+}
+input {
+    margin-top: 30px;
+    width: 300px;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    border-bottom: 2px solid rgb(79, 79, 79);
+    color: rgb(255, 255, 255)
+}
+
+
+.enviar {
+    position: relative;
+    bottom: -50px;
+    background-color:#dd5405 ;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+
+textarea {
+    position: relative;
+    bottom: -50px;
+    background-color: transparent;
+    width: 600px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 700px;
+}
+
+
+#imagen {
+    height: 100%;
+    width: 100%;
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+#a:hover {
+    color: #dd5405;
+}
+
+a {
+    text-decoration: none;
+    color: #dfdfdf;
+    display: block;
+}
+button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 175px;
+    text-align: center;
+    border: 1px solid #dd5405;
+    padding: 12px 25px;
+    background-color: #dd5405;
+    transition: all 100ms ease 0s;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.button {
+    position: relative;
+    right: -800px;
+    bottom: -10px;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #dd5405;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.contato {
+    width: 100%;
+    height: 620px;
+    text-align: center;
+}
+#contato {
+    position: relative;
+    right: -15%;
+    bottom: -90px;
+    width: 900px;
+    height: 530px;
+}
