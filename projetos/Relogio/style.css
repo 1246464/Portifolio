@@ -1,0 +1,19 @@
+body {
+    background-color: #202020;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+#clock {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-size: 48px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  

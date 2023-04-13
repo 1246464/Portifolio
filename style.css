@@ -1,0 +1,259 @@
+* { 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  button:hover span {
+    padding-right: 25px;
+  }
+  
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.p {
+    position: relative;
+    bottom: -30%;
+}
+
+#p {
+    position: relative;
+    bottom: -30%;
+}
+
+#h1 { 
+    color: white;
+    font-size: 40px;
+}
+
+h3 {
+    position: relative;
+    bottom: -100px;
+    font-size: 40px;
+}
+
+h4 {
+    position: relative;
+    bottom: -25%;
+    font-size: 40px;
+}
+
+.portifolio {
+    align-items: center;
+}
+
+body {
+    background-color: rgb(19, 19, 19);
+}
+
+#b1 {
+    transition: all 0.5s;
+    cursor: pointer;
+    background-color: rgb(192, 111, 18);
+    border-radius: 5px;
+    padding: 5px 12px;
+    font-size: 14px;
+    position: relative;
+    right: -65%;
+    bottom: -25px;
+}
+
+#img1 {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    right: -60px;
+    bottom: -20%;
+
+}
+
+#img2 {
+    width: 100%;
+    height: 100%;
+}
+
+#img3 {
+    position: relative;
+    bottom: -25px;
+    width: 60px;
+    height: 60px;
+}
+
+
+.inicio {
+    width: 100%;
+    height: 150px;
+}
+
+.div1 {
+    width: 100%;
+    height: 500px;
+}
+
+#D1 {
+    color: white;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 10%;
+    bottom: -40px;
+}
+
+#D2 {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 60%;
+    top: -75%;
+    
+}
+
+.button {
+    border-radius: 8px;
+    padding: 10px 35px;
+    background-color: rgb(192, 111, 18);
+    margin: 5px;
+    font-size: 20px;
+    position: relative;
+    bottom: -40%;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px)
+
+}
+.div2 {
+    width: 100%;
+    height: 650px;
+}
+
+#A1 {
+    right: -15%;
+    position: relative;
+    color: white;
+    text-align: center;
+    width: 70%;
+    height: 65%;
+}
+
+#A2 {
+    width: 100%;
+    height: 35%;
+}
+
+#s1 {
+    width: 330px;
+    height: 100%;
+    display: inline-block;
+}
+
+#s2 {
+    color: white;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+.div3 {
+    width: 100%;
+    height: 660px;
+}
+
+#B1 {
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+}
+
+#B2 {
+    
+    width: 100%;
+    height: 60%;
+}
+
+#g1 {
+    background-color: rgb(32, 32, 32);
+    width: 80%;
+    height: 250px;
+    position: relative;
+    right: -10%;
+}
+
+#s3 {
+    text-align: center;
+    margin: -2px;
+    height: 100%;
+    width: 25%;
+    display: inline-block;
+}
+
+#s4 {
+    width: 100%;
+    height: 50%;
+    font-size: 20px;
+    color: rgb(219, 87, 11);
+}
+
+
+.div5 {
+    text-align: center;
+    width: 100%;
+    height: 650px;
+}
+
+#contato {
+    width: 80%;
+    height: 80%;
+    position: relative;
+    right: -10%;
+    top: 10%;
+}
+
+input {
+    color: white;
+    margin: 10px;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    background-color: transparent;
+    width: 300px;
+    position: relative;
+    bottom: -25%;
+}
+
+textarea {
+    color: white;
+    background-color: transparent;
+    width: 630px;
+    position: relative;
+    bottom: -30%;
+}
